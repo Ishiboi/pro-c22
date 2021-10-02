@@ -55,10 +55,10 @@ function setup(){
     // Code for ball
     var ball_options ={
         isStatic: false,
-        restitution: 5
+        restitution:1.5
     }
 
-    ball = Bodies.circle(660,100,20, ball_options);
+    ball = Bodies.circle(610,150,20, ball_options);
     World.add(myworld,ball);
     
 
